@@ -12,7 +12,7 @@ char ssid[] = "SEU WIFI";                         // Coloque seu SSID wifi aqui
 char password[] =  "SUA SENHA";                   // Coloque sua senha wifi aqui
 char token[] = " ";                               // Coloque seu token da conta Circus Of Things.
 char server[] = "www.circusofthings.com";
-char teste_key[] = " ";                           // Coloque a chave do sinal que você criou no Circus Of Things para a temperatura
+char teste_key[] = " ";                           // Coloque a chave do sinal que você criou no Circus Of Things para contagem de ciclo
 char order_key [] = " "  ;                        // Digite a chave do sinal de circo que você deseja que o ESP32 escute.
 CircusESP32Lib circusESP32(server,ssid,password); // O objeto que representa um ESP32 para você poder solicitar gravação ou leitura
 
